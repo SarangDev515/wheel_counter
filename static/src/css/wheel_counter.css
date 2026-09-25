@@ -1,0 +1,53 @@
+.o_wheel_counter_input_wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-width: 42px;
+}
+
+.o_wheel_counter_input_wrapper > .o_input {
+    box-sizing: border-box;
+    padding-right: 24px !important;
+    width: 100%;
+}
+
+.o_wheel_counter_controls {
+    align-items: stretch;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 21px;
+    z-index: 2;
+}
+
+.o_wheel_counter_button {
+    background: transparent;
+    border: 0;
+    border-left: 1px solid #ced4da;
+    color: #6c757d;
+    cursor: pointer;
+    flex: 1 1 50%;
+    font-size: 9px;
+    line-height: 1;
+    margin: 0;
+    min-height: 0;
+    outline: none;
+    padding: 0;
+}
+
+.o_wheel_counter_button:hover,
+.o_wheel_counter_button:focus {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.o_wheel_counter_button:active {
+    background-color: #dee2e6;
+}
+
+.o_wheel_counter_increment {
+    border-bottom: 1px solid #ced4da;
+}
